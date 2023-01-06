@@ -1,0 +1,5 @@
+n = int(input('Sekundlarni kiriting: '))
+soat = int(n / 3600)
+minut = int((n - (soat * 3600)) / 60)
+sekund = int(n - ((soat * 3600) + (minut * 60)))
+print('%d soat %d minut %d sekund' % (soat, minut, sekund))
